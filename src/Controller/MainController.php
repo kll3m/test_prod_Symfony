@@ -13,7 +13,7 @@ use App\Entity\Product;
 class MainController extends AbstractController
 {
     /**
-     * @Route("/pouet", name="main")
+     * @Route("/", name="main")
      * Le controller ici sert de routeur
      */
     public function index()
@@ -24,7 +24,7 @@ class MainController extends AbstractController
     }
 
     /**
-     * @Route("/test", name="test")
+     * @Route("/", name="test")
      * @param ObjectManager $om
      * @return Response
      */
