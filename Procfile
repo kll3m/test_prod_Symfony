@@ -1,1 +1,1 @@
-web: heroku-php-apache2 public/com
+web: heroku-php-apache2 public/
